@@ -1,6 +1,6 @@
 /*
  * Project: Timer
- * Class: com.leontg77.timer.ReflectionUtils
+ * Class: com.leontg77.timer.util.ReflectionUtils
  *
  * The MIT License (MIT)
  *
@@ -25,7 +25,7 @@
  * THE SOFTWARE.
  */
 
-package com.leontg77.timer;
+package com.leontg77.timer.util;
 
 import org.bukkit.Bukkit;
 

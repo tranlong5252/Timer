@@ -28,7 +28,7 @@
 package com.leontg77.timer.handling;
 
 import com.google.common.base.Preconditions;
-import com.leontg77.timer.ReflectionUtils;
+import com.leontg77.timer.util.ReflectionUtils;
 import org.bukkit.entity.Player;
 
 import java.lang.reflect.Field;

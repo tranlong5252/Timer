@@ -29,7 +29,7 @@ package com.leontg77.timer.handling.handlers;
 
 import com.leontg77.timer.handling.TimerHandler;
 import com.leontg77.timer.handling.PacketSender;
-import com.leontg77.timer.ReflectionUtils;
+import com.leontg77.timer.util.ReflectionUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
