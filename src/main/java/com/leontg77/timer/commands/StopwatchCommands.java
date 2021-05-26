@@ -43,7 +43,7 @@ public class StopwatchCommands implements CommandExecutor {
                 stopwatchMain.setEndSec(s, args);
             }
         } else {
-            s.sendMessage(ChatColor.RED + "/[stopwatch|st] pause/stop/start <type>/help/item/message/offset/endsec");
+            s.sendMessage(ChatColor.RED + "/[stopwatch|st] pause/stop/start/help/item/message/offset/endsec");
         }
         return false;
     }

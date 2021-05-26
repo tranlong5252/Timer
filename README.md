@@ -10,7 +10,7 @@ ___
 
 **Commands:**
 
-`/timer <seconds> <message> [color] [style]` - *Start a timer that counts down for the given seconds and starts with the given message.*
+`/timer <actionbar|bossbar> <seconds> <message> [color] [style]` - *Start a timer that counts down for the given seconds and starts with the given message.*
 
 `/timer -1 <message>` - *This will make it so the message will stay in the chat permanent until cancelled with no countdown.*
 
@@ -20,13 +20,17 @@ ___
 
 `/timer update <color> [style]` - *Update the boss bar color and style, if enabled.*
 
+`/[stopwatch|st] pause/stop/start/help/item/message/offset/endsec` - *Commands with stopwatch.*
+
 **Permissions:**
 
-`timer.manage` - *Permission to use* `/timer`*.*
+`timer.manage` - *Permission to use* `/timer`.
+
+`stopwatch.admin` - *Permission to use* `/stopwatch`.
 ___
 
 [**Download**](https://github.com/LeonTG/Timer/releases)
 
 [**Source Code**](https://github.com/LeonTG/Timer)
 
-*This has been tested on the latest spigot 1.8.8 & 1.12.2 build.*
+*This has been tested on the latest spigot 1.8.8 & 1.12.2 build (1.16 not compatible - update soon)*

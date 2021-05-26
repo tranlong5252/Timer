@@ -1,9 +1,14 @@
 name: ${project.name}
 main: ${project.groupId}.${project.artifactId}.Main
 version: ${project.version}
-author: LeonTG
+authors: [LeonTG, tranlong5252]
 description: This plugin adds a timer that will countdown in the action/boss bar of players.
+depend: []
 
 commands:
   timer:
     description: Timer command, check usage.
+    aliases: [countdown, mcd]
+  stopwatch:
+    description: Stopwatch command, check usage.
+    aliases: [st]
